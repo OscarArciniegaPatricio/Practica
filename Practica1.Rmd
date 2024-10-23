@@ -1,0 +1,13 @@
+---
+title: "Practica"
+output: html_document
+date: "2024-10-23"
+---
+
+```
+ValorFinal = function(A,r,t){
+
+resultado1=A*[((1+r)^t-1)/r]
+
+  return(resultado1)
+}
